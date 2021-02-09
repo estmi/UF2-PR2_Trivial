@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C# Projects\\Menu\\Jordi\\Jordi.csproj",
+      "projectUniqueName": "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Jordi\\Jordi.csproj",
       "projectName": "Jordi",
-      "projectPath": "D:\\C# Projects\\Menu\\Jordi\\Jordi.csproj",
+      "projectPath": "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Jordi\\Jordi.csproj",
       "packagesPath": "C:\\Users\\estmi\\.nuget\\packages\\",
-      "outputPath": "D:\\C# Projects\\Menu\\Jordi\\obj\\",
+      "outputPath": "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Jordi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\estmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
