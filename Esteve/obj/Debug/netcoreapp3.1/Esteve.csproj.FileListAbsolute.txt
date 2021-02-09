@@ -1,0 +1,13 @@
+D:\C# Projects\Menu\Esteve\obj\Debug\netcoreapp3.1\Esteve.csprojAssemblyReference.cache
+D:\C# Projects\Menu\Esteve\obj\Debug\netcoreapp3.1\Esteve.AssemblyInfoInputs.cache
+D:\C# Projects\Menu\Esteve\obj\Debug\netcoreapp3.1\Esteve.AssemblyInfo.cs
+D:\C# Projects\Menu\Esteve\obj\Debug\netcoreapp3.1\Esteve.csproj.CoreCompileInputs.cache
+D:\C# Projects\Menu\Esteve\bin\Debug\netcoreapp3.1\Esteve.exe
+D:\C# Projects\Menu\Esteve\bin\Debug\netcoreapp3.1\Esteve.deps.json
+D:\C# Projects\Menu\Esteve\bin\Debug\netcoreapp3.1\Esteve.runtimeconfig.json
+D:\C# Projects\Menu\Esteve\bin\Debug\netcoreapp3.1\Esteve.runtimeconfig.dev.json
+D:\C# Projects\Menu\Esteve\bin\Debug\netcoreapp3.1\Esteve.dll
+D:\C# Projects\Menu\Esteve\bin\Debug\netcoreapp3.1\Esteve.pdb
+D:\C# Projects\Menu\Esteve\obj\Debug\netcoreapp3.1\Esteve.dll
+D:\C# Projects\Menu\Esteve\obj\Debug\netcoreapp3.1\Esteve.pdb
+D:\C# Projects\Menu\Esteve\obj\Debug\netcoreapp3.1\Esteve.genruntimeconfig.cache
