@@ -55,8 +55,8 @@
     },
     "FuncionsMenu/1.0.0": {
       "type": "project",
-      "path": "Z:\\C# Projects\\Menu\\ConsoleApp1\\FuncionsMenu.csproj",
-      "msbuildProject": "Z:\\C# Projects\\Menu\\ConsoleApp1\\FuncionsMenu.csproj"
+      "path": "../ConsoleApp1/FuncionsMenu.csproj",
+      "msbuildProject": "../ConsoleApp1/FuncionsMenu.csproj"
     },
     "Jordi/1.0.0": {
       "type": "project",

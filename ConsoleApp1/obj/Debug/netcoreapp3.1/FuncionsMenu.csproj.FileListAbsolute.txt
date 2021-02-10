@@ -1,0 +1,13 @@
+Z:\C# Projects\Menu\ConsoleApp1\bin\Debug\netcoreapp3.1\FuncionsMenu.exe
+Z:\C# Projects\Menu\ConsoleApp1\bin\Debug\netcoreapp3.1\FuncionsMenu.deps.json
+Z:\C# Projects\Menu\ConsoleApp1\bin\Debug\netcoreapp3.1\FuncionsMenu.runtimeconfig.json
+Z:\C# Projects\Menu\ConsoleApp1\bin\Debug\netcoreapp3.1\FuncionsMenu.runtimeconfig.dev.json
+Z:\C# Projects\Menu\ConsoleApp1\bin\Debug\netcoreapp3.1\FuncionsMenu.dll
+Z:\C# Projects\Menu\ConsoleApp1\bin\Debug\netcoreapp3.1\FuncionsMenu.pdb
+Z:\C# Projects\Menu\ConsoleApp1\obj\Debug\netcoreapp3.1\FuncionsMenu.csprojAssemblyReference.cache
+Z:\C# Projects\Menu\ConsoleApp1\obj\Debug\netcoreapp3.1\FuncionsMenu.AssemblyInfoInputs.cache
+Z:\C# Projects\Menu\ConsoleApp1\obj\Debug\netcoreapp3.1\FuncionsMenu.AssemblyInfo.cs
+Z:\C# Projects\Menu\ConsoleApp1\obj\Debug\netcoreapp3.1\FuncionsMenu.csproj.CoreCompileInputs.cache
+Z:\C# Projects\Menu\ConsoleApp1\obj\Debug\netcoreapp3.1\FuncionsMenu.dll
+Z:\C# Projects\Menu\ConsoleApp1\obj\Debug\netcoreapp3.1\FuncionsMenu.pdb
+Z:\C# Projects\Menu\ConsoleApp1\obj\Debug\netcoreapp3.1\FuncionsMenu.genruntimeconfig.cache
