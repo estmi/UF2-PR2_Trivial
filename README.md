@@ -1,10 +1,11 @@
 # UF2-PR2_Trivial
 Esteve Miquel
+
 	Preguntes de dates
-		Quin any és de traspas?
+		Quin any Ã©s de traspas?
 
 	Preguntes de mates
-		Quin nombre és primer?
+		Quin nombre Ã©s primer?
 
 	Preguntes de Farming Sim
 		Marca imaginaria creada per el creador?
