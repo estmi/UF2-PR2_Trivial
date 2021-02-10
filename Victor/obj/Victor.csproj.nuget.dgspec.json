@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Victor\\Victor.csproj": {}
+    "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Victor\\Victor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Victor\\Victor.csproj": {
+    "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Victor\\Victor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Victor\\Victor.csproj",
+        "projectUniqueName": "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Victor\\Victor.csproj",
         "projectName": "Victor",
-        "projectPath": "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Victor\\Victor.csproj",
+        "projectPath": "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Victor\\Victor.csproj",
         "packagesPath": "C:\\Users\\estmi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Victor\\obj\\",
+        "outputPath": "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Victor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\estmi\\AppData\\Roaming\\NuGet\\NuGet.Config",

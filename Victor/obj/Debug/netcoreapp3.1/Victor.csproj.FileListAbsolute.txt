@@ -10,3 +10,16 @@ D:\C# Projects\Menu\Victor\obj\Debug\netcoreapp3.1\Victor.csproj.CoreCompileInpu
 D:\C# Projects\Menu\Victor\obj\Debug\netcoreapp3.1\Victor.dll
 D:\C# Projects\Menu\Victor\obj\Debug\netcoreapp3.1\Victor.pdb
 D:\C# Projects\Menu\Victor\obj\Debug\netcoreapp3.1\Victor.genruntimeconfig.cache
+C:\Users\estmi\source\repos\UF2-PR2_Trivial\Victor\bin\Debug\netcoreapp3.1\Victor.exe
+C:\Users\estmi\source\repos\UF2-PR2_Trivial\Victor\bin\Debug\netcoreapp3.1\Victor.deps.json
+C:\Users\estmi\source\repos\UF2-PR2_Trivial\Victor\bin\Debug\netcoreapp3.1\Victor.runtimeconfig.json
+C:\Users\estmi\source\repos\UF2-PR2_Trivial\Victor\bin\Debug\netcoreapp3.1\Victor.runtimeconfig.dev.json
+C:\Users\estmi\source\repos\UF2-PR2_Trivial\Victor\bin\Debug\netcoreapp3.1\Victor.dll
+C:\Users\estmi\source\repos\UF2-PR2_Trivial\Victor\bin\Debug\netcoreapp3.1\Victor.pdb
+C:\Users\estmi\source\repos\UF2-PR2_Trivial\Victor\obj\Debug\netcoreapp3.1\Victor.csprojAssemblyReference.cache
+C:\Users\estmi\source\repos\UF2-PR2_Trivial\Victor\obj\Debug\netcoreapp3.1\Victor.AssemblyInfoInputs.cache
+C:\Users\estmi\source\repos\UF2-PR2_Trivial\Victor\obj\Debug\netcoreapp3.1\Victor.AssemblyInfo.cs
+C:\Users\estmi\source\repos\UF2-PR2_Trivial\Victor\obj\Debug\netcoreapp3.1\Victor.csproj.CoreCompileInputs.cache
+C:\Users\estmi\source\repos\UF2-PR2_Trivial\Victor\obj\Debug\netcoreapp3.1\Victor.dll
+C:\Users\estmi\source\repos\UF2-PR2_Trivial\Victor\obj\Debug\netcoreapp3.1\Victor.pdb
+C:\Users\estmi\source\repos\UF2-PR2_Trivial\Victor\obj\Debug\netcoreapp3.1\Victor.genruntimeconfig.cache

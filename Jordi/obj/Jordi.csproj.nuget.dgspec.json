@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Jordi\\Jordi.csproj": {}
+    "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Jordi\\Jordi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Jordi\\Jordi.csproj": {
+    "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Jordi\\Jordi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Jordi\\Jordi.csproj",
+        "projectUniqueName": "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Jordi\\Jordi.csproj",
         "projectName": "Jordi",
-        "projectPath": "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Jordi\\Jordi.csproj",
+        "projectPath": "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Jordi\\Jordi.csproj",
         "packagesPath": "C:\\Users\\estmi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Jordi\\obj\\",
+        "outputPath": "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Jordi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\estmi\\AppData\\Roaming\\NuGet\\NuGet.Config",

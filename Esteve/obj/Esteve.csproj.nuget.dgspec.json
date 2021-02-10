@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Esteve\\Esteve.csproj": {}
+    "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Esteve\\Esteve.csproj": {}
   },
   "projects": {
-    "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Esteve\\Esteve.csproj": {
+    "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Esteve\\Esteve.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Esteve\\Esteve.csproj",
+        "projectUniqueName": "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Esteve\\Esteve.csproj",
         "projectName": "Esteve",
-        "projectPath": "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Esteve\\Esteve.csproj",
+        "projectPath": "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Esteve\\Esteve.csproj",
         "packagesPath": "C:\\Users\\estmi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Esteve\\obj\\",
+        "outputPath": "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Esteve\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\estmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
