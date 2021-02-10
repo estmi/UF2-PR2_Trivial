@@ -11,3 +11,15 @@ D:\C# Projects\Menu\Jordi\obj\Debug\netcoreapp3.1\Jordi.csproj.CoreCompileInputs
 D:\C# Projects\Menu\Jordi\obj\Debug\netcoreapp3.1\Jordi.dll
 D:\C# Projects\Menu\Jordi\obj\Debug\netcoreapp3.1\Jordi.pdb
 D:\C# Projects\Menu\Jordi\obj\Debug\netcoreapp3.1\Jordi.genruntimeconfig.cache
+C:\Users\estmi\source\repos\UF2-PR2_Trivial\Jordi\bin\Debug\netcoreapp3.1\Jordi.exe
+C:\Users\estmi\source\repos\UF2-PR2_Trivial\Jordi\bin\Debug\netcoreapp3.1\Jordi.deps.json
+C:\Users\estmi\source\repos\UF2-PR2_Trivial\Jordi\bin\Debug\netcoreapp3.1\Jordi.runtimeconfig.json
+C:\Users\estmi\source\repos\UF2-PR2_Trivial\Jordi\bin\Debug\netcoreapp3.1\Jordi.runtimeconfig.dev.json
+C:\Users\estmi\source\repos\UF2-PR2_Trivial\Jordi\bin\Debug\netcoreapp3.1\Jordi.dll
+C:\Users\estmi\source\repos\UF2-PR2_Trivial\Jordi\bin\Debug\netcoreapp3.1\Jordi.pdb
+C:\Users\estmi\source\repos\UF2-PR2_Trivial\Jordi\obj\Debug\netcoreapp3.1\Jordi.AssemblyInfoInputs.cache
+C:\Users\estmi\source\repos\UF2-PR2_Trivial\Jordi\obj\Debug\netcoreapp3.1\Jordi.AssemblyInfo.cs
+C:\Users\estmi\source\repos\UF2-PR2_Trivial\Jordi\obj\Debug\netcoreapp3.1\Jordi.csproj.CoreCompileInputs.cache
+C:\Users\estmi\source\repos\UF2-PR2_Trivial\Jordi\obj\Debug\netcoreapp3.1\Jordi.dll
+C:\Users\estmi\source\repos\UF2-PR2_Trivial\Jordi\obj\Debug\netcoreapp3.1\Jordi.pdb
+C:\Users\estmi\source\repos\UF2-PR2_Trivial\Jordi\obj\Debug\netcoreapp3.1\Jordi.genruntimeconfig.cache

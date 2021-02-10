@@ -5,4 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="Z:\C# Projects\Menu\ConsoleApp1\FuncionsMenu.csproj" />
+  </ItemGroup>
+
 </Project>

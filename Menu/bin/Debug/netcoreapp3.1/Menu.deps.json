@@ -17,8 +17,16 @@
         }
       },
       "Esteve/1.0.0": {
+        "dependencies": {
+          "FuncionsMenu": "1.0.0"
+        },
         "runtime": {
           "Esteve.dll": {}
+        }
+      },
+      "FuncionsMenu/1.0.0": {
+        "runtime": {
+          "FuncionsMenu.dll": {}
         }
       },
       "Jordi/1.0.0": {
@@ -40,6 +48,11 @@
       "sha512": ""
     },
     "Esteve/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FuncionsMenu/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

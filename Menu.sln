@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jordi", "Jordi\Jordi.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Victor", "Victor\Victor.csproj", "{0BC6CCC2-4871-41B7-80DA-2D02CD8C5A99}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FuncionsMenu", "Z:\C# Projects\Menu\ConsoleApp1\FuncionsMenu.csproj", "{7EA08A09-D551-4C2C-869A-255D859E712B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{0BC6CCC2-4871-41B7-80DA-2D02CD8C5A99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BC6CCC2-4871-41B7-80DA-2D02CD8C5A99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BC6CCC2-4871-41B7-80DA-2D02CD8C5A99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EA08A09-D551-4C2C-869A-255D859E712B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EA08A09-D551-4C2C-869A-255D859E712B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EA08A09-D551-4C2C-869A-255D859E712B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EA08A09-D551-4C2C-869A-255D859E712B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

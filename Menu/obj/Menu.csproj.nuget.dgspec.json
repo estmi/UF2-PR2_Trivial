@@ -1,125 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Menu\\Menu.csproj": {}
+    "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Menu\\Menu.csproj": {}
   },
   "projects": {
-    "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Esteve\\Esteve.csproj": {
+    "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Esteve\\Esteve.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Esteve\\Esteve.csproj",
+        "projectUniqueName": "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Esteve\\Esteve.csproj",
         "projectName": "Esteve",
-        "projectPath": "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Esteve\\Esteve.csproj",
+        "projectPath": "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Esteve\\Esteve.csproj",
         "packagesPath": "C:\\Users\\estmi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Esteve\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\estmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Jordi\\Jordi.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Jordi\\Jordi.csproj",
-        "projectName": "Jordi",
-        "projectPath": "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Jordi\\Jordi.csproj",
-        "packagesPath": "C:\\Users\\estmi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Jordi\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\estmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Menu\\Menu.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Menu\\Menu.csproj",
-        "projectName": "Menu",
-        "projectPath": "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Menu\\Menu.csproj",
-        "packagesPath": "C:\\Users\\estmi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Menu\\obj\\",
+        "outputPath": "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Esteve\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\estmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -136,14 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Esteve\\Esteve.csproj": {
-                "projectPath": "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Esteve\\Esteve.csproj"
-              },
-              "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Jordi\\Jordi.csproj": {
-                "projectPath": "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Jordi\\Jordi.csproj"
-              },
-              "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Victor\\Victor.csproj": {
-                "projectPath": "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Victor\\Victor.csproj"
+              "Z:\\C# Projects\\Menu\\ConsoleApp1\\FuncionsMenu.csproj": {
+                "projectPath": "Z:\\C# Projects\\Menu\\ConsoleApp1\\FuncionsMenu.csproj"
               }
             }
           }
@@ -176,14 +62,186 @@
         }
       }
     },
-    "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Victor\\Victor.csproj": {
+    "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Jordi\\Jordi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Victor\\Victor.csproj",
-        "projectName": "Victor",
-        "projectPath": "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Victor\\Victor.csproj",
+        "projectUniqueName": "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Jordi\\Jordi.csproj",
+        "projectName": "Jordi",
+        "projectPath": "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Jordi\\Jordi.csproj",
         "packagesPath": "C:\\Users\\estmi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Victor\\obj\\",
+        "outputPath": "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Jordi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\estmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Menu\\Menu.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Menu\\Menu.csproj",
+        "projectName": "Menu",
+        "projectPath": "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Menu\\Menu.csproj",
+        "packagesPath": "C:\\Users\\estmi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Menu\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\estmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Esteve\\Esteve.csproj": {
+                "projectPath": "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Esteve\\Esteve.csproj"
+              },
+              "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Jordi\\Jordi.csproj": {
+                "projectPath": "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Jordi\\Jordi.csproj"
+              },
+              "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Victor\\Victor.csproj": {
+                "projectPath": "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Victor\\Victor.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Victor\\Victor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Victor\\Victor.csproj",
+        "projectName": "Victor",
+        "projectPath": "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Victor\\Victor.csproj",
+        "packagesPath": "C:\\Users\\estmi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Victor\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\estmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Z:\\C# Projects\\Menu\\ConsoleApp1\\FuncionsMenu.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\C# Projects\\Menu\\ConsoleApp1\\FuncionsMenu.csproj",
+        "projectName": "FuncionsMenu",
+        "projectPath": "Z:\\C# Projects\\Menu\\ConsoleApp1\\FuncionsMenu.csproj",
+        "packagesPath": "C:\\Users\\estmi\\.nuget\\packages\\",
+        "outputPath": "Z:\\C# Projects\\Menu\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\estmi\\AppData\\Roaming\\NuGet\\NuGet.Config",

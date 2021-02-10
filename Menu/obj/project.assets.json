@@ -5,11 +5,24 @@
       "Esteve/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "FuncionsMenu": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Esteve.dll": {}
         },
         "runtime": {
           "bin/placeholder/Esteve.dll": {}
+        }
+      },
+      "FuncionsMenu/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/FuncionsMenu.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FuncionsMenu.dll": {}
         }
       },
       "Jordi/1.0.0": {
@@ -40,6 +53,11 @@
       "path": "../Esteve/Esteve.csproj",
       "msbuildProject": "../Esteve/Esteve.csproj"
     },
+    "FuncionsMenu/1.0.0": {
+      "type": "project",
+      "path": "Z:\\C# Projects\\Menu\\ConsoleApp1\\FuncionsMenu.csproj",
+      "msbuildProject": "Z:\\C# Projects\\Menu\\ConsoleApp1\\FuncionsMenu.csproj"
+    },
     "Jordi/1.0.0": {
       "type": "project",
       "path": "../Jordi/Jordi.csproj",
@@ -64,11 +82,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Menu\\Menu.csproj",
+      "projectUniqueName": "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Menu\\Menu.csproj",
       "projectName": "Menu",
-      "projectPath": "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Menu\\Menu.csproj",
+      "projectPath": "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Menu\\Menu.csproj",
       "packagesPath": "C:\\Users\\estmi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Menu\\obj\\",
+      "outputPath": "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Menu\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\estmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -85,14 +103,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Esteve\\Esteve.csproj": {
-              "projectPath": "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Esteve\\Esteve.csproj"
+            "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Esteve\\Esteve.csproj": {
+              "projectPath": "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Esteve\\Esteve.csproj"
             },
-            "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Jordi\\Jordi.csproj": {
-              "projectPath": "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Jordi\\Jordi.csproj"
+            "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Jordi\\Jordi.csproj": {
+              "projectPath": "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Jordi\\Jordi.csproj"
             },
-            "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Victor\\Victor.csproj": {
-              "projectPath": "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Victor\\Victor.csproj"
+            "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Victor\\Victor.csproj": {
+              "projectPath": "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Victor\\Victor.csproj"
             }
           }
         }

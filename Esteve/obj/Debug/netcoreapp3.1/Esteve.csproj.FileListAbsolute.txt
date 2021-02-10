@@ -11,3 +11,20 @@ D:\C# Projects\Menu\Esteve\bin\Debug\netcoreapp3.1\Esteve.pdb
 D:\C# Projects\Menu\Esteve\obj\Debug\netcoreapp3.1\Esteve.dll
 D:\C# Projects\Menu\Esteve\obj\Debug\netcoreapp3.1\Esteve.pdb
 D:\C# Projects\Menu\Esteve\obj\Debug\netcoreapp3.1\Esteve.genruntimeconfig.cache
+C:\Users\estmi\Source\Repos\UF2-PR2_Trivial\Esteve\bin\Debug\netcoreapp3.1\Esteve.exe
+C:\Users\estmi\Source\Repos\UF2-PR2_Trivial\Esteve\bin\Debug\netcoreapp3.1\Esteve.deps.json
+C:\Users\estmi\Source\Repos\UF2-PR2_Trivial\Esteve\bin\Debug\netcoreapp3.1\Esteve.runtimeconfig.json
+C:\Users\estmi\Source\Repos\UF2-PR2_Trivial\Esteve\bin\Debug\netcoreapp3.1\Esteve.runtimeconfig.dev.json
+C:\Users\estmi\Source\Repos\UF2-PR2_Trivial\Esteve\bin\Debug\netcoreapp3.1\Esteve.dll
+C:\Users\estmi\Source\Repos\UF2-PR2_Trivial\Esteve\bin\Debug\netcoreapp3.1\Esteve.pdb
+C:\Users\estmi\Source\Repos\UF2-PR2_Trivial\Esteve\obj\Debug\netcoreapp3.1\Esteve.csprojAssemblyReference.cache
+C:\Users\estmi\Source\Repos\UF2-PR2_Trivial\Esteve\obj\Debug\netcoreapp3.1\Esteve.AssemblyInfoInputs.cache
+C:\Users\estmi\Source\Repos\UF2-PR2_Trivial\Esteve\obj\Debug\netcoreapp3.1\Esteve.AssemblyInfo.cs
+C:\Users\estmi\Source\Repos\UF2-PR2_Trivial\Esteve\obj\Debug\netcoreapp3.1\Esteve.csproj.CoreCompileInputs.cache
+C:\Users\estmi\Source\Repos\UF2-PR2_Trivial\Esteve\obj\Debug\netcoreapp3.1\Esteve.dll
+C:\Users\estmi\Source\Repos\UF2-PR2_Trivial\Esteve\obj\Debug\netcoreapp3.1\Esteve.pdb
+C:\Users\estmi\Source\Repos\UF2-PR2_Trivial\Esteve\obj\Debug\netcoreapp3.1\Esteve.genruntimeconfig.cache
+C:\Users\estmi\Source\Repos\UF2-PR2_Trivial\Esteve\bin\Debug\netcoreapp3.1\FuncionsMenu.exe
+C:\Users\estmi\Source\Repos\UF2-PR2_Trivial\Esteve\bin\Debug\netcoreapp3.1\FuncionsMenu.dll
+C:\Users\estmi\Source\Repos\UF2-PR2_Trivial\Esteve\bin\Debug\netcoreapp3.1\FuncionsMenu.pdb
+C:\Users\estmi\Source\Repos\UF2-PR2_Trivial\Esteve\obj\Debug\netcoreapp3.1\Esteve.csproj.CopyComplete
