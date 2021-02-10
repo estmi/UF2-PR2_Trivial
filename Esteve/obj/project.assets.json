@@ -17,8 +17,8 @@
   "libraries": {
     "FuncionsMenu/1.0.0": {
       "type": "project",
-      "path": "Z:\\C# Projects\\Menu\\ConsoleApp1\\FuncionsMenu.csproj",
-      "msbuildProject": "Z:\\C# Projects\\Menu\\ConsoleApp1\\FuncionsMenu.csproj"
+      "path": "../ConsoleApp1/FuncionsMenu.csproj",
+      "msbuildProject": "../ConsoleApp1/FuncionsMenu.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Esteve\\Esteve.csproj",
+      "projectUniqueName": "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Esteve\\Esteve.csproj",
       "projectName": "Esteve",
-      "projectPath": "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Esteve\\Esteve.csproj",
+      "projectPath": "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Esteve\\Esteve.csproj",
       "packagesPath": "C:\\Users\\estmi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\estmi\\Source\\Repos\\UF2-PR2_Trivial\\Esteve\\obj\\",
+      "outputPath": "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Esteve\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\estmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "Z:\\C# Projects\\Menu\\ConsoleApp1\\FuncionsMenu.csproj": {
-              "projectPath": "Z:\\C# Projects\\Menu\\ConsoleApp1\\FuncionsMenu.csproj"
+            "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\ConsoleApp1\\FuncionsMenu.csproj": {
+              "projectPath": "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\ConsoleApp1\\FuncionsMenu.csproj"
             }
           }
         }

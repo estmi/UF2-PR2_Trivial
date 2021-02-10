@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="Z:\C# Projects\Menu\ConsoleApp1\FuncionsMenu.csproj" />
+    <ProjectReference Include="..\ConsoleApp1\FuncionsMenu.csproj" />
   </ItemGroup>
 
 </Project>
