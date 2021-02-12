@@ -9,7 +9,7 @@ namespace Menu
     {
         static void Main(string[] args)
         {
-            Esteve.Program.Hello();
+            Jordi.Program.Main();
         }
     }
 }

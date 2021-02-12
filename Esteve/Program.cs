@@ -8,9 +8,6 @@ namespace Esteve
 {
     public class Esteve
     {
-        public static Tematica FarmingSim;
-        public static Tematica Dates;
-        public static Tematica Mates;
         public static Random _random = new Random();
         public static string[] abc =  { "a)","b)","c)","d)","e)","f)","g)","h)","i)","j)","k)","l)","m)","n)"};
         public struct Tematica
@@ -45,6 +42,7 @@ namespace Esteve
         }
         public static void Main() 
         {
+            Tematica FarmingSim;
             StreamReader sr = new StreamReader("../../../Preguntes Farming.txt");
             FarmingSim.nom = sr.ReadLine();
             FarmingSim.pregunta1 = AfegirPregunta(sr);
@@ -52,9 +50,6 @@ namespace Esteve
             FarmingSim.pregunta2 = AfegirPregunta(sr);
             sr.ReadLine();
             Console.WriteLine(FerPregunta(FarmingSim.pregunta1));
-            
-            
-
         }
         /// <summary>
         /// Aquesta funcio fa una pregunta i retorna si s'ha fet be o no
