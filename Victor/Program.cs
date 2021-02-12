@@ -9,9 +9,11 @@ namespace Victor
         static void Main()
         {
             Tematica FarmingSim;
-            StreamReader sr = new StreamReader("../../../../Esteve/Preguntes Farming.txt");
+            string tema;
+            tema = Console.ReadLine();
+            StreamReader sr = new StreamReader(string.Format("../../../../Esteve/{0}.txt",tema));
             int punts = 0;
-
+            FarmingSim.nom = sr.ReadLine();
             FarmingSim.pregunta1 = AfegirPregunta(sr);
             sr.ReadLine();
             FarmingSim.pregunta2 = AfegirPregunta(sr);
@@ -29,4 +31,4 @@ namespace Victor
         }
     }
 }
-}
+
