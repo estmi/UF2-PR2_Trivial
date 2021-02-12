@@ -72,7 +72,9 @@ namespace Esteve
         public static bool RecollirResposta(Correccio c)
         {
             bool correcte;
-            int tecla = (int)Console.ReadKey().Key - 65;
+            int tecla;
+            Console.Write("Resposta: ");
+            tecla= (int)Console.ReadKey().Key - 65;
             Console.WriteLine();
             try
             {
