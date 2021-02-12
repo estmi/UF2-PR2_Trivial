@@ -15,13 +15,15 @@ namespace Esteve
         public static string[] abc =  { "a)","b)","c)","d)","e)","f)","g)","h)","i)","j)","k)","l)","m)","n)"};
         public struct Tematica
         {
+            public string nom;
             public Correccio pregunta1;
             public Correccio pregunta2;
             public Correccio pregunta3;
             public Correccio pregunta4;
             public Correccio pregunta5;
-            public Tematica(Correccio c1,Correccio c2,Correccio c3,Correccio c4,Correccio c5)
+            public Tematica(string nom, Correccio c1,Correccio c2,Correccio c3,Correccio c4,Correccio c5)
             {
+                this.nom = nom;
                 this.pregunta1 = c1;
                 this.pregunta2 = c2;
                 this.pregunta3 = c3;
