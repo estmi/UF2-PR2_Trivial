@@ -46,6 +46,7 @@ namespace Esteve
         public static void Main() 
         {
             StreamReader sr = new StreamReader("../../../Preguntes Farming.txt");
+            FarmingSim.nom = sr.ReadLine();
             FarmingSim.pregunta1 = AfegirPregunta(sr);
             sr.ReadLine();
             FarmingSim.pregunta2 = AfegirPregunta(sr);
@@ -60,17 +61,31 @@ namespace Esteve
         /// </summary>
         /// <param name="c">Aqui entrem la correccio de la pregunta</param>
         /// <returns>1 punt correcte, 0 punts incorrecte</returns>
-        public static int FerPregunta(Correccio c)
+        public static bool FerPregunta(Correccio c)
         {
-            int punt = 0;
-            int tecla;
+            
             c = RandomizeOptions(c);
             MostrarOpcions(c);
-            tecla = (int)Console.ReadKey().Key - 65;
+            return RecollirResposta(c);
+            
+        }
+        public static bool RecollirResposta(Correccio c)
+        {
+            bool correcte;
+            int tecla = (int)Console.ReadKey().Key - 65;
             Console.WriteLine();
-            if (c.OpcioCorrecta[tecla])
-                punt ++;            
-            return punt;
+            try
+            {
+                correcte = c.OpcioCorrecta[tecla];
+            }
+            catch
+            {
+                Console.WriteLine("Opcio incorrecta");
+                tecla = (int)Console.ReadKey().Key - 65;
+                correcte = c.OpcioCorrecta[tecla];
+            }
+            
+            return correcte;
         }
         public static Correccio AfegirPregunta(StreamReader sr)
         {
@@ -91,17 +106,6 @@ namespace Esteve
             c.OpcioCorrecta = new bool[c.opcions.Length];
             Console.WriteLine("Opcio correcta: ");
             c.OpcioCorrecta[Convert.ToInt32(Console.ReadLine()) - 1] = true;
-            return c;
-        }
-        public static Correccio CompletarCorrecio(Correccio c, string s)
-        {
-            if (s == "EsAnyDeTranspas")
-                for (int i = 0; i < c.opcions.Length; i++)
-                    c.OpcioCorrecta[i] = FuncionsStandard.AnyTraspas(Convert.ToInt32(c.opcions[i]));
-            
-            else if (s == "EsPrimer") 
-                for (int i = 0; i < c.opcions.Length; i++)
-                    c.OpcioCorrecta[i] = FuncionsStandard.EsPrimer(Convert.ToInt32(c.opcions[i]));
             return c;
         }
         public static void MostrarOpcions(Correccio ss)
