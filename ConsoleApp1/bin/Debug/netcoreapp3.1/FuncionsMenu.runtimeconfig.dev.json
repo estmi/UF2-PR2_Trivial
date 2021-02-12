@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\estmi\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\estmi\\.nuget\\packages"
+      "C:\\Users\\tilted\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\tilted\\.nuget\\packages"
     ]
   }
 }

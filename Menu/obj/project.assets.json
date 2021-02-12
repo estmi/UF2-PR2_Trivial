@@ -38,6 +38,9 @@
       "Victor/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Esteve": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Victor.dll": {}
         },
@@ -77,19 +80,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\estmi\\.nuget\\packages\\": {}
+    "C:\\Users\\tilted\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Menu\\Menu.csproj",
+      "projectUniqueName": "C:\\Users\\tilted\\Desktop\\Programm\\UF2-PR2_Trivial\\Menu\\Menu.csproj",
       "projectName": "Menu",
-      "projectPath": "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Menu\\Menu.csproj",
-      "packagesPath": "C:\\Users\\estmi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Menu\\obj\\",
+      "projectPath": "C:\\Users\\tilted\\Desktop\\Programm\\UF2-PR2_Trivial\\Menu\\Menu.csproj",
+      "packagesPath": "C:\\Users\\tilted\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tilted\\Desktop\\Programm\\UF2-PR2_Trivial\\Menu\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\estmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tilted\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -101,16 +104,15 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Esteve\\Esteve.csproj": {
-              "projectPath": "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Esteve\\Esteve.csproj"
+            "C:\\Users\\tilted\\Desktop\\Programm\\UF2-PR2_Trivial\\Esteve\\Esteve.csproj": {
+              "projectPath": "C:\\Users\\tilted\\Desktop\\Programm\\UF2-PR2_Trivial\\Esteve\\Esteve.csproj"
             },
-            "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Jordi\\Jordi.csproj": {
-              "projectPath": "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Jordi\\Jordi.csproj"
+            "C:\\Users\\tilted\\Desktop\\Programm\\UF2-PR2_Trivial\\Jordi\\Jordi.csproj": {
+              "projectPath": "C:\\Users\\tilted\\Desktop\\Programm\\UF2-PR2_Trivial\\Jordi\\Jordi.csproj"
             },
-            "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Victor\\Victor.csproj": {
-              "projectPath": "C:\\Users\\estmi\\source\\repos\\UF2-PR2_Trivial\\Victor\\Victor.csproj"
+            "C:\\Users\\tilted\\Desktop\\Programm\\UF2-PR2_Trivial\\Victor\\Victor.csproj": {
+              "projectPath": "C:\\Users\\tilted\\Desktop\\Programm\\UF2-PR2_Trivial\\Victor\\Victor.csproj"
             }
           }
         }
@@ -123,7 +125,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -139,7 +140,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

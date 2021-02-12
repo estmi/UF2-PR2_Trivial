@@ -7,14 +7,40 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "Victor/1.0.0": {
+        "dependencies": {
+          "Esteve": "1.0.0"
+        },
         "runtime": {
           "Victor.dll": {}
+        }
+      },
+      "Esteve/1.0.0": {
+        "dependencies": {
+          "FuncionsMenu": "1.0.0"
+        },
+        "runtime": {
+          "Esteve.dll": {}
+        }
+      },
+      "FuncionsMenu/1.0.0": {
+        "runtime": {
+          "FuncionsMenu.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Victor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Esteve/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FuncionsMenu/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

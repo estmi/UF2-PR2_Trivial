@@ -11,3 +11,16 @@ Z:\C# Projects\Menu\ConsoleApp1\obj\Debug\netcoreapp3.1\FuncionsMenu.csproj.Core
 Z:\C# Projects\Menu\ConsoleApp1\obj\Debug\netcoreapp3.1\FuncionsMenu.dll
 Z:\C# Projects\Menu\ConsoleApp1\obj\Debug\netcoreapp3.1\FuncionsMenu.pdb
 Z:\C# Projects\Menu\ConsoleApp1\obj\Debug\netcoreapp3.1\FuncionsMenu.genruntimeconfig.cache
+C:\Users\tilted\Desktop\Programm\UF2-PR2_Trivial\ConsoleApp1\bin\Debug\netcoreapp3.1\FuncionsMenu.exe
+C:\Users\tilted\Desktop\Programm\UF2-PR2_Trivial\ConsoleApp1\bin\Debug\netcoreapp3.1\FuncionsMenu.deps.json
+C:\Users\tilted\Desktop\Programm\UF2-PR2_Trivial\ConsoleApp1\bin\Debug\netcoreapp3.1\FuncionsMenu.runtimeconfig.json
+C:\Users\tilted\Desktop\Programm\UF2-PR2_Trivial\ConsoleApp1\bin\Debug\netcoreapp3.1\FuncionsMenu.runtimeconfig.dev.json
+C:\Users\tilted\Desktop\Programm\UF2-PR2_Trivial\ConsoleApp1\bin\Debug\netcoreapp3.1\FuncionsMenu.dll
+C:\Users\tilted\Desktop\Programm\UF2-PR2_Trivial\ConsoleApp1\bin\Debug\netcoreapp3.1\FuncionsMenu.pdb
+C:\Users\tilted\Desktop\Programm\UF2-PR2_Trivial\ConsoleApp1\obj\Debug\netcoreapp3.1\FuncionsMenu.csprojAssemblyReference.cache
+C:\Users\tilted\Desktop\Programm\UF2-PR2_Trivial\ConsoleApp1\obj\Debug\netcoreapp3.1\FuncionsMenu.AssemblyInfoInputs.cache
+C:\Users\tilted\Desktop\Programm\UF2-PR2_Trivial\ConsoleApp1\obj\Debug\netcoreapp3.1\FuncionsMenu.AssemblyInfo.cs
+C:\Users\tilted\Desktop\Programm\UF2-PR2_Trivial\ConsoleApp1\obj\Debug\netcoreapp3.1\FuncionsMenu.csproj.CoreCompileInputs.cache
+C:\Users\tilted\Desktop\Programm\UF2-PR2_Trivial\ConsoleApp1\obj\Debug\netcoreapp3.1\FuncionsMenu.dll
+C:\Users\tilted\Desktop\Programm\UF2-PR2_Trivial\ConsoleApp1\obj\Debug\netcoreapp3.1\FuncionsMenu.pdb
+C:\Users\tilted\Desktop\Programm\UF2-PR2_Trivial\ConsoleApp1\obj\Debug\netcoreapp3.1\FuncionsMenu.genruntimeconfig.cache
