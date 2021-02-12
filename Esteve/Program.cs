@@ -8,8 +8,11 @@ namespace Esteve
 {
     public class Esteve
     {
-        public static Random _random = new Random();
+
+        public static Random _random = new Random(); // Creacio d'una variable random
+        // llistat de prefixos per poder mostrar les respostes
         public static string[] abc =  { "a)","b)","c)","d)","e)","f)","g)","h)","i)","j)","k)","l)","m)","n)"};
+        // Tematica, conte el nom i les 5 preguntes de cada tematica
         public struct Tematica
         {
             public string nom;
@@ -28,6 +31,7 @@ namespace Esteve
                 this.pregunta5 = c5;
             }
         }
+        // Correccio, conte la pregunta, conte les possibles respostes, conte tambe una booleana per saber quina és la correcta
         public struct Correccio
         {
             public string pregunta;
@@ -40,6 +44,7 @@ namespace Esteve
                 this.OpcioCorrecta = y;
             }
         }
+        // Proves
         public static void Main() 
         {
             Tematica FarmingSim;
@@ -52,10 +57,10 @@ namespace Esteve
             Console.WriteLine(FerPregunta(FarmingSim.pregunta1));
         }
         /// <summary>
-        /// Aquesta funcio fa una pregunta i retorna si s'ha fet be o no
+        /// Aquesta funcio fa una pregunta, barreja les opcions i recull la resposta
         /// </summary>
         /// <param name="c">Aqui entrem la correccio de la pregunta</param>
-        /// <returns>1 punt correcte, 0 punts incorrecte</returns>
+        /// <returns>true correcte, false incorrecte</returns>
         public static bool FerPregunta(Correccio c)
         {
             
@@ -64,6 +69,11 @@ namespace Esteve
             return RecollirResposta(c);
             
         }
+        /// <summary>
+        /// Demana una resposta i comprova si és correcta
+        /// </summary>
+        /// <param name="c">Aqui entrem la correccio de la pregunta</param>
+        /// <returns>true correcte, false incorrecte</returns>
         public static bool RecollirResposta(Correccio c)
         {
             bool correcte;
@@ -84,6 +94,11 @@ namespace Esteve
             
             return correcte;
         }
+        /// <summary>
+        /// LLegeix una pregunta i les respostes d'un arxiu BDD correctament formatat
+        /// </summary>
+        /// <param name="sr">StreamReader de l'arxiu BDD</param>
+        /// <returns>retorna la correccio d'una pregunta</returns>
         public static Correccio AfegirPregunta(StreamReader sr)
         {
             Correccio c;
@@ -93,6 +108,10 @@ namespace Esteve
             c.OpcioCorrecta[Convert.ToInt32(sr.ReadLine()) - 1] = true;
             return c;
         }
+        /// <summary>
+        /// Llegeix una pregunta i la seves respostes de teclat
+        /// </summary>
+        /// <returns>retorna la correccio d'una pregunta</returns>
         public static Correccio AfegirPregunta()
         {
             Correccio c;
@@ -105,6 +124,10 @@ namespace Esteve
             c.OpcioCorrecta[Convert.ToInt32(Console.ReadLine()) - 1] = true;
             return c;
         }
+        /// <summary>
+        /// Mostra les opcions d'una pregunta, afegeix un prefix obtingut de l'array abc
+        /// </summary>
+        /// <param name="ss">Correccio d'on obtenir les respostes</param>
         public static void MostrarOpcions(Correccio ss)
         {
             Console.Write("Pregunta: ");
@@ -116,10 +139,10 @@ namespace Esteve
             }
         }
         /// <summary>
-        /// Barreja les opcions, s'ha d'entrar una Correccio i et retorna la correccio amb les opcions barrejades
+        /// Barreja les opcions d'una correccio
         /// </summary>
-        /// <param name="arr"></param>
-        /// <returns></returns>
+        /// <param name="arr">Correccio de la qual es volen barrejar les opcions</param>
+        /// <returns>Correccio amb les opcions barrejades</returns>
         public static Correccio RandomizeOptions(Correccio arr)
         {
             
