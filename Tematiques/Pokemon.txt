@@ -1,0 +1,21 @@
+Pokemon
+Cual es el numero 1 de la pokedex de kanto?
+mewtwo | caterpie | agumon|bulbasaur
+4
+
+¿Donde se encontraba a mew, supuestamente?
+Barco|Camión|volcan|playa
+2
+
+¿En qué evoluciona magnemite?
+groudon|kyogre|magnezone|magneton
+4
+
+¿Como se llama el 3 integrante del alto mando?
+Lance|Agatha|Bruno|Verte
+2
+
+¿Como se llama el pokemon espiritu de 101 almas?
+Gengar|agumon|spiritomb|metapod
+3
+

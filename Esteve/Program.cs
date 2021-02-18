@@ -8,8 +8,11 @@ namespace Esteve
 {
     public class Esteve
     {
-        public static Random _random = new Random();
+
+        public static Random _random = new Random(); // Creacio d'una variable random
+        // llistat de prefixos per poder mostrar les respostes
         public static string[] abc =  { "a)","b)","c)","d)","e)","f)","g)","h)","i)","j)","k)","l)","m)","n)"};
+        // Tematica, conte el nom i les 5 preguntes de cada tematica
         public struct Tematica
         {
             public string nom;
@@ -28,6 +31,7 @@ namespace Esteve
                 this.pregunta5 = c5;
             }
         }
+        // Correccio, conte la pregunta, conte les possibles respostes, conte tambe una booleana per saber quina és la correcta
         public struct Correccio
         {
             public string pregunta;
@@ -40,22 +44,64 @@ namespace Esteve
                 this.OpcioCorrecta = y;
             }
         }
+        // Proves
         public static void Main() 
         {
-            Tematica FarmingSim;
-            StreamReader sr = new StreamReader("../../../Preguntes Farming.txt");
+            
+            //StreamReader sr = new StreamReader("../../../Farming Simulator.txt");
+            /*Tematica FarmingSim;/*Tematica FarmingSim;
             FarmingSim.nom = sr.ReadLine();
             FarmingSim.pregunta1 = AfegirPregunta(sr);
             sr.ReadLine();
             FarmingSim.pregunta2 = AfegirPregunta(sr);
             sr.ReadLine();
-            Console.WriteLine(FerPregunta(FarmingSim.pregunta1));
+            Console.WriteLine(FerPregunta(FarmingSim.pregunta1));*/
+            Tematica tema = new Tematica(Console.ReadLine(), AfegirPregunta(), AfegirPregunta(), AfegirPregunta(),AfegirPregunta(),AfegirPregunta());
+
+            GuardarTematica(new Tematica(Console.ReadLine(), AfegirPregunta(), AfegirPregunta(), AfegirPregunta(), AfegirPregunta(), AfegirPregunta()));
+        }
+       
+        public static void GuardarTematica(Tematica t)
+        {
+            StreamWriter sw = new StreamWriter(string.Format("../../../../Tematiques/{0}.txt", "tematiques"), true);
+            sw.WriteLine(t.nom);
+            sw.Close();
+            sw = new StreamWriter(string.Format("../../../../Tematiques/{0}.txt", t.nom),false);
+            sw.WriteLine(t.nom);
+            GuardarPregunta(t.pregunta1, sw);
+            
+            GuardarPregunta(t.pregunta2, sw);
+            
+            GuardarPregunta(t.pregunta3, sw);
+            
+            GuardarPregunta(t.pregunta4, sw);
+            
+            GuardarPregunta(t.pregunta5, sw);
+            sw.Close();
+        }
+        public static void GuardarPregunta(Correccio c, StreamWriter sw)
+        {
+            int idx = 0;
+            sw.WriteLine(c.pregunta);
+            for (int i=0; i < c.opcions.Length; i++)
+            {
+                sw.Write(c.opcions[i]);
+                if (i != c.opcions.Length - 1)
+                {
+                    sw.Write("|");
+                }
+            }
+            idx = 0;
+            while (!c.OpcioCorrecta[idx])
+                idx++;
+            sw.WriteLine("\n{0}\n",idx + 1);
+            
         }
         /// <summary>
-        /// Aquesta funcio fa una pregunta i retorna si s'ha fet be o no
+        /// Aquesta funcio fa una pregunta, barreja les opcions i recull la resposta
         /// </summary>
         /// <param name="c">Aqui entrem la correccio de la pregunta</param>
-        /// <returns>1 punt correcte, 0 punts incorrecte</returns>
+        /// <returns>true correcte, false incorrecte</returns>
         public static bool FerPregunta(Correccio c)
         {
             
@@ -64,26 +110,38 @@ namespace Esteve
             return RecollirResposta(c);
             
         }
+        /// <summary>
+        /// Demana una resposta i comprova si és correcta
+        /// </summary>
+        /// <param name="c">Aqui entrem la correccio de la pregunta</param>
+        /// <returns>true correcte, false incorrecte</returns>
         public static bool RecollirResposta(Correccio c)
         {
-            bool correcte;
+            bool correcte=false,fet=false;
             int tecla;
             Console.Write("Resposta: ");
-            tecla= (int)Console.ReadKey().Key - 65;
-            Console.WriteLine();
-            try
+            do
             {
-                correcte = c.OpcioCorrecta[tecla];
-            }
-            catch
-            {
-                Console.WriteLine("Opcio incorrecta");
                 tecla = (int)Console.ReadKey().Key - 65;
-                correcte = c.OpcioCorrecta[tecla];
-            }
+                Console.WriteLine();
+                try
+                {
+                    correcte = c.OpcioCorrecta[tecla];
+                    fet = true;
+                }
+                catch
+                {
+                    Console.WriteLine("Opcio incorrecta");
+                }
+            } while (!fet);
             
             return correcte;
         }
+        /// <summary>
+        /// LLegeix una pregunta i les respostes d'un arxiu BDD correctament formatat
+        /// </summary>
+        /// <param name="sr">StreamReader de l'arxiu BDD</param>
+        /// <returns>retorna la correccio d'una pregunta</returns>
         public static Correccio AfegirPregunta(StreamReader sr)
         {
             Correccio c;
@@ -93,6 +151,10 @@ namespace Esteve
             c.OpcioCorrecta[Convert.ToInt32(sr.ReadLine()) - 1] = true;
             return c;
         }
+        /// <summary>
+        /// Llegeix una pregunta i la seves respostes de teclat
+        /// </summary>
+        /// <returns>retorna la correccio d'una pregunta</returns>
         public static Correccio AfegirPregunta()
         {
             Correccio c;
@@ -105,6 +167,26 @@ namespace Esteve
             c.OpcioCorrecta[Convert.ToInt32(Console.ReadLine()) - 1] = true;
             return c;
         }
+        public static Tematica AfegirTematica(string fileName)
+        {
+            Tematica tema;
+            StreamReader sr = new StreamReader(string.Format("../../../../Tematiques/{0}.txt", fileName));
+            tema.nom = sr.ReadLine();
+            tema.pregunta1 = AfegirPregunta(sr);
+            sr.ReadLine();
+            tema.pregunta2 = AfegirPregunta(sr);
+            sr.ReadLine();
+            tema.pregunta3 = AfegirPregunta(sr);
+            sr.ReadLine();
+            tema.pregunta4 = AfegirPregunta(sr);
+            sr.ReadLine();
+            tema.pregunta5 = AfegirPregunta(sr);
+            return tema;
+        }
+        /// <summary>
+        /// Mostra les opcions d'una pregunta, afegeix un prefix obtingut de l'array abc
+        /// </summary>
+        /// <param name="ss">Correccio d'on obtenir les respostes</param>
         public static void MostrarOpcions(Correccio ss)
         {
             Console.Write("Pregunta: ");
@@ -116,10 +198,10 @@ namespace Esteve
             }
         }
         /// <summary>
-        /// Barreja les opcions, s'ha d'entrar una Correccio i et retorna la correccio amb les opcions barrejades
+        /// Barreja les opcions d'una correccio
         /// </summary>
-        /// <param name="arr"></param>
-        /// <returns></returns>
+        /// <param name="arr">Correccio de la qual es volen barrejar les opcions</param>
+        /// <returns>Correccio amb les opcions barrejades</returns>
         public static Correccio RandomizeOptions(Correccio arr)
         {
             

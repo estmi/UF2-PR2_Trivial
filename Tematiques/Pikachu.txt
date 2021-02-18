@@ -1,0 +1,21 @@
+Pikachu
+De qui parlarem?
+Una rata|En Pikachu|Un Pokemon verd
+2
+
+De quin tipus és en Pikachu?
+Electrico|Acero|Hada
+1
+
+Linia evolutiva 1a Generacio de Pokemon:
+Pikachu->Raichu|Pikachu|Pichu->Pikachu|Pichu->Pickachu->Raichu
+1
+
+La punta de la cua d'un Pikachu és negra?
+Sí|No
+2
+
+Que diferencia un Pikachu mascle d'una femella?
+Res|El color|La cua|Els mofletes
+3
+
