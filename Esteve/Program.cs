@@ -47,14 +47,55 @@ namespace Esteve
         // Proves
         public static void Main() 
         {
-            Tematica FarmingSim;
-            StreamReader sr = new StreamReader("../../../Preguntes Farming.txt");
+            
+            //StreamReader sr = new StreamReader("../../../Farming Simulator.txt");
+            /*Tematica FarmingSim;/*Tematica FarmingSim;
             FarmingSim.nom = sr.ReadLine();
             FarmingSim.pregunta1 = AfegirPregunta(sr);
             sr.ReadLine();
             FarmingSim.pregunta2 = AfegirPregunta(sr);
             sr.ReadLine();
-            Console.WriteLine(FerPregunta(FarmingSim.pregunta1));
+            Console.WriteLine(FerPregunta(FarmingSim.pregunta1));*/
+            Tematica tema = new Tematica(Console.ReadLine(), AfegirPregunta(), AfegirPregunta(), AfegirPregunta(),AfegirPregunta(),AfegirPregunta());
+
+            GuardarTematica(new Tematica(Console.ReadLine(), AfegirPregunta(), AfegirPregunta(), AfegirPregunta(), AfegirPregunta(), AfegirPregunta()));
+        }
+       
+        public static void GuardarTematica(Tematica t)
+        {
+            StreamWriter sw = new StreamWriter(string.Format("../../../../Tematiques/{0}.txt", "tematiques"), true);
+            sw.WriteLine(t.nom);
+            sw.Close();
+            sw = new StreamWriter(string.Format("../../../../Tematiques/{0}.txt", t.nom),false);
+            sw.WriteLine(t.nom);
+            GuardarPregunta(t.pregunta1, sw);
+            
+            GuardarPregunta(t.pregunta2, sw);
+            
+            GuardarPregunta(t.pregunta3, sw);
+            
+            GuardarPregunta(t.pregunta4, sw);
+            
+            GuardarPregunta(t.pregunta5, sw);
+            sw.Close();
+        }
+        public static void GuardarPregunta(Correccio c, StreamWriter sw)
+        {
+            int idx = 0;
+            sw.WriteLine(c.pregunta);
+            for (int i=0; i < c.opcions.Length; i++)
+            {
+                sw.Write(c.opcions[i]);
+                if (i != c.opcions.Length - 1)
+                {
+                    sw.Write("|");
+                }
+            }
+            idx = 0;
+            while (!c.OpcioCorrecta[idx])
+                idx++;
+            sw.WriteLine("\n{0}\n",idx + 1);
+            
         }
         /// <summary>
         /// Aquesta funcio fa una pregunta, barreja les opcions i recull la resposta
@@ -76,21 +117,23 @@ namespace Esteve
         /// <returns>true correcte, false incorrecte</returns>
         public static bool RecollirResposta(Correccio c)
         {
-            bool correcte;
+            bool correcte=false,fet=false;
             int tecla;
             Console.Write("Resposta: ");
-            tecla= (int)Console.ReadKey().Key - 65;
-            Console.WriteLine();
-            try
+            do
             {
-                correcte = c.OpcioCorrecta[tecla];
-            }
-            catch
-            {
-                Console.WriteLine("Opcio incorrecta");
                 tecla = (int)Console.ReadKey().Key - 65;
-                correcte = c.OpcioCorrecta[tecla];
-            }
+                Console.WriteLine();
+                try
+                {
+                    correcte = c.OpcioCorrecta[tecla];
+                    fet = true;
+                }
+                catch
+                {
+                    Console.WriteLine("Opcio incorrecta");
+                }
+            } while (!fet);
             
             return correcte;
         }
@@ -123,6 +166,22 @@ namespace Esteve
             Console.WriteLine("Opcio correcta: ");
             c.OpcioCorrecta[Convert.ToInt32(Console.ReadLine()) - 1] = true;
             return c;
+        }
+        public static Tematica AfegirTematica(string fileName)
+        {
+            Tematica tema;
+            StreamReader sr = new StreamReader(string.Format("../../../../Tematiques/{0}.txt", fileName));
+            tema.nom = sr.ReadLine();
+            tema.pregunta1 = AfegirPregunta(sr);
+            sr.ReadLine();
+            tema.pregunta2 = AfegirPregunta(sr);
+            sr.ReadLine();
+            tema.pregunta3 = AfegirPregunta(sr);
+            sr.ReadLine();
+            tema.pregunta4 = AfegirPregunta(sr);
+            sr.ReadLine();
+            tema.pregunta5 = AfegirPregunta(sr);
+            return tema;
         }
         /// <summary>
         /// Mostra les opcions d'una pregunta, afegeix un prefix obtingut de l'array abc
