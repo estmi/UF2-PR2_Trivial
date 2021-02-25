@@ -7,7 +7,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ConsoleApp1\FuncionsMenu.csproj" />
-    <ProjectReference Include="..\Victor\Victor.csproj" />
   </ItemGroup>
 
 </Project>
