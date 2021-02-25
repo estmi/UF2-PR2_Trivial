@@ -1,0 +1,8 @@
+Quant comencem?
+3|2|5
+1
+
+Primera classe de dimarts:
+Llenguatge de marques|Programacio|Entorns
+1
+
