@@ -8,7 +8,7 @@ namespace Esteve
 {
     public class Esteve
     {
-
+        public static string opcio;
         public static Random _random = new Random(); // Creacio d'una variable random
         // llistat de prefixos per poder mostrar les respostes
         public static string[] abc =  { "a)","b)","c)","d)","e)","f)","g)","h)","i)","j)","k)","l)","m)","n)"};
@@ -113,6 +113,7 @@ namespace Esteve
                 try
                 {
                     correcte = c.OpcioCorrecta[tecla];
+                    opcio = c.opcions[tecla];
                     fet = true;
                 }
                 catch
@@ -258,6 +259,14 @@ namespace Esteve
             arr.OpcioCorrecta = result2;
             
             return arr;
+        }
+        public static int ComptadorPunts(bool b, int punts)
+        {
+            string s;
+            if (b) s = string.Format("Correcte! la teva puntuació és de {0} punt/s", ++punts);
+            else s = string.Format("Incorrecte! la teva puntuació és de {0} punt/s", punts);
+            Console.WriteLine(s);
+            return punts;
         }
 
     }
