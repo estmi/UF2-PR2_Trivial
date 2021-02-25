@@ -1,6 +1,5 @@
-Pokemon
 Cual es el numero 1 de la pokedex de kanto?
-mewtwo | caterpie | agumon|bulbasaur
+mewtwo|caterpie|agumon|bulbasaur
 4
 
 ¿Donde se encontraba a mew, supuestamente?

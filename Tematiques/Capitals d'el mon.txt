@@ -1,0 +1,19 @@
+Capital de Georgia:
+Ankara|Tiflis|Ereván|Bakú
+2
+
+Capital de Etiopia:
+Mogadiscio|Yibuti|Adis Abeba|Kampala
+3
+
+Capital de China:
+Pekin|Seúl|Pionyang|Ulán Bator
+1
+
+Capital d'Australia:
+Canberra|Melbourne|Sidney|Perth
+1
+
+Capital de Cuba:
+Puerto Principe|Kingston|La Habana|San José
+3

@@ -8,7 +8,7 @@ namespace Esteve
 {
     public class Esteve
     {
-
+        public static string opcio;
         public static Random _random = new Random(); // Creacio d'una variable random
         // llistat de prefixos per poder mostrar les respostes
         public static string[] abc =  { "a)","b)","c)","d)","e)","f)","g)","h)","i)","j)","k)","l)","m)","n)"};
@@ -16,19 +16,12 @@ namespace Esteve
         public struct Tematica
         {
             public string nom;
-            public Correccio pregunta1;
-            public Correccio pregunta2;
-            public Correccio pregunta3;
-            public Correccio pregunta4;
-            public Correccio pregunta5;
-            public Tematica(string nom, Correccio c1,Correccio c2,Correccio c3,Correccio c4,Correccio c5)
+            public Correccio[] preguntes ;
+            public Tematica(string nom, Correccio[] preguntes)
             {
                 this.nom = nom;
-                this.pregunta1 = c1;
-                this.pregunta2 = c2;
-                this.pregunta3 = c3;
-                this.pregunta4 = c4;
-                this.pregunta5 = c5;
+                this.preguntes = preguntes;
+               
             }
         }
         // Correccio, conte la pregunta, conte les possibles respostes, conte tambe una booleana per saber quina és la correcta
@@ -56,9 +49,9 @@ namespace Esteve
             FarmingSim.pregunta2 = AfegirPregunta(sr);
             sr.ReadLine();
             Console.WriteLine(FerPregunta(FarmingSim.pregunta1));*/
-            Tematica tema = new Tematica(Console.ReadLine(), AfegirPregunta(), AfegirPregunta(), AfegirPregunta(),AfegirPregunta(),AfegirPregunta());
+            //Tematica tema = new Tematica(Console.ReadLine(), AfegirPregunta(), AfegirPregunta(), AfegirPregunta(),AfegirPregunta(),AfegirPregunta());
 
-            GuardarTematica(new Tematica(Console.ReadLine(), AfegirPregunta(), AfegirPregunta(), AfegirPregunta(), AfegirPregunta(), AfegirPregunta()));
+            GuardarTematica(new Tematica(Console.ReadLine(), new Correccio[] { AfegirPregunta(), AfegirPregunta(), AfegirPregunta(), AfegirPregunta(), AfegirPregunta() }));
         }
        
         public static void GuardarTematica(Tematica t)
@@ -67,35 +60,28 @@ namespace Esteve
             sw.WriteLine(t.nom);
             sw.Close();
             sw = new StreamWriter(string.Format("../../../../Tematiques/{0}.txt", t.nom),false);
-            sw.WriteLine(t.nom);
-            GuardarPregunta(t.pregunta1, sw);
-            
-            GuardarPregunta(t.pregunta2, sw);
-            
-            GuardarPregunta(t.pregunta3, sw);
-            
-            GuardarPregunta(t.pregunta4, sw);
-            
-            GuardarPregunta(t.pregunta5, sw);
+            GuardarPregunta(t.preguntes, sw);
             sw.Close();
         }
-        public static void GuardarPregunta(Correccio c, StreamWriter sw)
+        public static void GuardarPregunta(Correccio[] preguntes, StreamWriter sw)
         {
-            int idx = 0;
-            sw.WriteLine(c.pregunta);
-            for (int i=0; i < c.opcions.Length; i++)
+            int idx;
+            foreach (Correccio c in preguntes)
             {
-                sw.Write(c.opcions[i]);
-                if (i != c.opcions.Length - 1)
+                sw.WriteLine(c.pregunta);
+                for (int i = 0; i < c.opcions.Length; i++)
                 {
-                    sw.Write("|");
+                    sw.Write(c.opcions[i]);
+                    if (i != c.opcions.Length - 1)
+                    {
+                        sw.Write("|");
+                    }
                 }
+                idx = 0;
+                while (!c.OpcioCorrecta[idx])
+                    idx++;
+                sw.WriteLine("\n{0}\n", idx + 1);
             }
-            idx = 0;
-            while (!c.OpcioCorrecta[idx])
-                idx++;
-            sw.WriteLine("\n{0}\n",idx + 1);
-            
         }
         /// <summary>
         /// Aquesta funcio fa una pregunta, barreja les opcions i recull la resposta
@@ -127,6 +113,7 @@ namespace Esteve
                 try
                 {
                     correcte = c.OpcioCorrecta[tecla];
+                    opcio = c.opcions[tecla];
                     fet = true;
                 }
                 catch
@@ -167,20 +154,48 @@ namespace Esteve
             c.OpcioCorrecta[Convert.ToInt32(Console.ReadLine()) - 1] = true;
             return c;
         }
+        public static Tematica AfegirTematica()
+        {
+            Tematica tema;
+            bool b = true;
+            List<Correccio> preguntes = new List<Correccio> { };
+            Console.WriteLine("Digues el nom del tema");
+            tema.nom = Console.ReadLine();
+            
+            while (b)
+            {
+                preguntes.Add(AfegirPregunta());
+                Console.WriteLine("Vols fer una altra pregunta? [Y/n]");
+                if (Console.ReadLine().ToLower() == "n")
+                    b = false;
+            }
+            tema.preguntes = new Correccio[preguntes.Count];
+            for (int i=0; i<tema.preguntes.Length;i++)
+                tema.preguntes[i] = preguntes[i];
+            
+            return tema;
+        }
         public static Tematica AfegirTematica(string fileName)
         {
             Tematica tema;
+            int idx;
             StreamReader sr = new StreamReader(string.Format("../../../../Tematiques/{0}.txt", fileName));
-            tema.nom = sr.ReadLine();
-            tema.pregunta1 = AfegirPregunta(sr);
-            sr.ReadLine();
-            tema.pregunta2 = AfegirPregunta(sr);
-            sr.ReadLine();
-            tema.pregunta3 = AfegirPregunta(sr);
-            sr.ReadLine();
-            tema.pregunta4 = AfegirPregunta(sr);
-            sr.ReadLine();
-            tema.pregunta5 = AfegirPregunta(sr);
+            List<Correccio> preguntes = new List<Correccio> { };
+            tema.nom = fileName;
+            
+            while (sr.Peek() != -1)
+            {
+                preguntes.Add(AfegirPregunta(sr));
+                sr.ReadLine();
+            }
+            tema.preguntes = new Correccio[preguntes.Count];
+            idx = 0;
+            while (idx < tema.preguntes.Length)
+            {
+                tema.preguntes[idx] = preguntes[idx];
+                idx++;
+            }
+            
             return tema;
         }
         /// <summary>
@@ -244,6 +259,14 @@ namespace Esteve
             arr.OpcioCorrecta = result2;
             
             return arr;
+        }
+        public static int ComptadorPunts(bool b, int punts)
+        {
+            string s;
+            if (b) s = string.Format("Correcte! la teva puntuació és de {0} punt/s", ++punts);
+            else s = string.Format("Incorrecte! la teva puntuació és de {0} punt/s", punts);
+            Console.WriteLine(s);
+            return punts;
         }
 
     }

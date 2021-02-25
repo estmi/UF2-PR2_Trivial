@@ -1,4 +1,3 @@
-Pikachu
 De qui parlarem?
 Una rata|En Pikachu|Un Pokemon verd
 2
@@ -18,4 +17,8 @@ Sí|No
 Que diferencia un Pikachu mascle d'una femella?
 Res|El color|La cua|Els mofletes
 3
+
+Atac fet especialment per a ell a Alola:
+Pikavoltio|Bola Pikachu|Ataque Pika Pika
+1
 
