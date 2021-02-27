@@ -54,6 +54,10 @@ namespace Esteve
             GuardarTematica(new Tematica(Console.ReadLine(), new Correccio[] { AfegirPregunta(), AfegirPregunta(), AfegirPregunta(), AfegirPregunta(), AfegirPregunta() }));
         }
        
+       /// <summary>
+       /// Guarda una tematica a disc per poder utilitzar en futures execucions
+       /// </summary>
+       /// <param name="t">Tematica a guardar</param>
         public static void GuardarTematica(Tematica t)
         {
             StreamWriter sw = new StreamWriter(string.Format("../../../../Tematiques/{0}.txt", "tematiques"), true);
@@ -63,6 +67,12 @@ namespace Esteve
             GuardarPregunta(t.preguntes, sw);
             sw.Close();
         }
+
+        /// <summary>
+        /// Guarda les preguntes a l'arxiu corresponent
+        /// </summary>
+        /// <param name="preguntes">Preguntes a guardar</param>
+        /// <param name="sw">On guardar</param>
         public static void GuardarPregunta(Correccio[] preguntes, StreamWriter sw)
         {
             int idx;
@@ -83,6 +93,7 @@ namespace Esteve
                 sw.WriteLine("\n{0}\n", idx + 1);
             }
         }
+
         /// <summary>
         /// Aquesta funcio fa una pregunta, barreja les opcions i recull la resposta
         /// </summary>
@@ -96,6 +107,7 @@ namespace Esteve
             return RecollirResposta(c);
             
         }
+
         /// <summary>
         /// Demana una resposta i comprova si és correcta
         /// </summary>
@@ -124,6 +136,7 @@ namespace Esteve
             
             return correcte;
         }
+
         /// <summary>
         /// LLegeix una pregunta i les respostes d'un arxiu BDD correctament formatat
         /// </summary>
@@ -138,6 +151,7 @@ namespace Esteve
             c.OpcioCorrecta[Convert.ToInt32(sr.ReadLine()) - 1] = true;
             return c;
         }
+
         /// <summary>
         /// Llegeix una pregunta i la seves respostes de teclat
         /// </summary>
@@ -154,6 +168,11 @@ namespace Esteve
             c.OpcioCorrecta[Convert.ToInt32(Console.ReadLine()) - 1] = true;
             return c;
         }
+
+        /// <summary>
+        /// Crea una tematica des de preguntes fetes a l'usuari
+        /// </summary>
+        /// <returns>Tematica creada</returns>
         public static Tematica AfegirTematica()
         {
             Tematica tema;
@@ -175,6 +194,12 @@ namespace Esteve
             
             return tema;
         }
+
+        /// <summary>
+        /// Llegeix una tematica de disc
+        /// </summary>
+        /// <param name="fileName">fitxer d'on llegir</param>
+        /// <returns>la tematica desitjada</returns>
         public static Tematica AfegirTematica(string fileName)
         {
             Tematica tema;
@@ -260,6 +285,13 @@ namespace Esteve
             
             return arr;
         }
+
+        /// <summary>
+        /// Mostra per pantalla els punts adquirits i si és correcta o no la resposta
+        /// </summary>
+        /// <param name="b">resposta correcte?</param>
+        /// <param name="punts">punts actuals</param>
+        /// <returns>punts després de la pregunta</returns>
         public static int ComptadorPunts(bool b, int punts)
         {
             string s;
