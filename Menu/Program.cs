@@ -68,6 +68,12 @@ namespace Menu
             while (tecla.Key != ConsoleKey.Enter&&!acabat);
         }
 
+        /// <summary>
+        /// Logica per mostrar un informe sobre tots els intents efectuats
+        /// </summary>
+        /// <param name="temesFets">array sobre els temes fets a cada intent</param>
+        /// <param name="puntuacio">array que conte les puntuacions de cada intent</param>
+        /// <param name="opcioTriada">llista que conte les opcions triades a cada intent</param>
         public static void VeureInforme(string[] temesFets, int[] puntuacio,List<List<string>> opcioTriada)
         {
             int teclaInforme;
@@ -115,6 +121,12 @@ namespace Menu
             }
             while (teclaInforme != 13-65);
         }
+
+        /// <summary>
+        /// obte l'index de la opcio correcta
+        /// </summary>
+        /// <param name="c">correccio on buscar</param>
+        /// <returns>index opcio correcte</returns>
         public static int indexCorrecte(Correccio c)
         {
             int idx=0;
@@ -124,6 +136,12 @@ namespace Menu
             }
             return idx;
         }
+
+        /// <summary>
+        /// amb un index obte el nom de la tematica desitjada
+        /// </summary>
+        /// <param name="tecla">index</param>
+        /// <returns>nom de la tematica</returns>
         public static string ObtenirOpcio(int tecla)
         {
             string s;
@@ -136,6 +154,10 @@ namespace Menu
             sr.Close();
             return s;
         }
+
+        /// <summary>
+        /// Mostra el menu
+        /// </summary>
         public static void MostrarMenu()
         {
             StreamReader sr = new StreamReader("../../../../Tematiques/tematiques.txt");
